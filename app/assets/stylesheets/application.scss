@@ -1,0 +1,14 @@
+@import "materialize/components/color";
+$primary-color: color("blue", "lighten-2") !default;
+@import 'materialize';
+@import "materialize/extras/nouislider";
+
+.padding-top-25 {
+  padding-top: 25px;
+}
+.error{
+	color: #E57373;
+}
+.container{
+	width: 85%;
+}
